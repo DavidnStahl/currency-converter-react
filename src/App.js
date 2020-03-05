@@ -5,7 +5,7 @@ import Container from './Components/Container';
 function App() {
   return (
     <div className="App container-fluid">
-    <div class="row justify-content-center">
+    <div className="row justify-content-center">
     <Container />
     </div>
       
