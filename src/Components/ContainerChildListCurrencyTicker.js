@@ -33,10 +33,8 @@ function ContainerChildListCurrencyTicker() {
         list.GBP = result.rates.GBP
         list.SEK = result.rates.SEK
         list.JPY = result.rates.JPY
-        list.NOK = result.rates.NOK 
-    
+        list.NOK = result.rates.NOK     
     }
-
     return (
         <React.Fragment>
             <ul className="list-group list-group-horizontal justify-content-center">
