@@ -5,20 +5,10 @@ function ContainerChildCovertInput(props) {
     const [number, setNumber] = useState(0);
     const [numberToCalculate, setCalculate] = useState(0);
     const [currencyName, setCurrencyName] = useState("");
-    const [USD, setCountUSD] = useState(0);
-    const [GBP, setCountGBP] = useState(0);
-    const [SEK, setCountSEK] = useState(0);
-    const [JPY, setCountJPY] = useState(0);
-    const [NOK, setCountNOK] = useState(0);
 
     const items = [];
 
-    function eventHandler(){
-        setCountUSD(props.currency.USD)
-        setCountGBP(props.currency.GBP)
-        setCountSEK(props.currency.SEK)
-        setCountJPY(props.currency.JPY)
-        setCountNOK(props.currency.NOK)       
+    function eventHandler(){      
         setCalculate(number*currency);
     }
 
