@@ -10,8 +10,6 @@ function ContainerChildCovertInput(props) {
     const [SEK, setCountSEK] = useState(0);
     const [JPY, setCountJPY] = useState(0);
     const [NOK, setCountNOK] = useState(0);
-    
-    
 
     const items = [];
 
@@ -25,7 +23,7 @@ function ContainerChildCovertInput(props) {
     }
 
     function handleSelectChange(e){
-        
+
         if (e.target.options[e.target.selectedIndex].text !== "Choose Currency")
         {
              setCurrencyName(e.target.options[e.target.selectedIndex].text)
@@ -53,3 +51,7 @@ function ContainerChildCovertInput(props) {
 }
 
 export default ContainerChildCovertInput
+
+
+
+
